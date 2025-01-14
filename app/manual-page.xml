@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="WhatsApp Backup Tool Manual" />
+    <StackLayout class="p-4">
+        <Button text="Generate WhatsApp Backup Tool Manual" tap="{{ generateManual }}" class="-primary mb-4" />
+        <Label text="{{ status }}" class="text-lg text-center text-gray-600" textWrap="true" />
+    </StackLayout>
+</Page>
